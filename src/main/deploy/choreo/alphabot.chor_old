@@ -1,0 +1,78 @@
+{
+ "name":"alphabot",
+ "version":1,
+ "type":"Swerve",
+ "variables":{
+  "expressions":{},
+  "poses":{}
+ },
+ "config":{
+  "frontLeft":{
+   "x":{
+    "exp":"10.375 in",
+    "val":0.263525
+   },
+   "y":{
+    "exp":"10.375 in",
+    "val":0.263525
+   }
+  },
+  "backLeft":{
+   "x":{
+    "exp":"-10.375 in",
+    "val":-0.263525
+   },
+   "y":{
+    "exp":"10.375 in",
+    "val":0.263525
+   }
+  },
+  "mass":{
+   "exp":"105 lbs",
+   "val":47.62719885
+  },
+  "inertia":{
+   "exp":"6 kg m ^ 2",
+   "val":6.0
+  },
+  "gearing":{
+   "exp":"6.746031746",
+   "val":6.746031746
+  },
+  "radius":{
+   "exp":"2 in",
+   "val":0.0508
+  },
+  "vmax":{
+   "exp":"5880 RPM",
+   "val":615.7521601035994
+  },
+  "tmax":{
+   "exp":"1.087 N * m",
+   "val":1.087
+  },
+  "cof":{
+   "exp":"1.426",
+   "val":1.426
+  },
+  "bumper":{
+   "front":{
+    "exp":"15.5 in",
+    "val":0.3937
+   },
+   "side":{
+    "exp":"15.5 in",
+    "val":0.3937
+   },
+   "back":{
+    "exp":"15.5 in",
+    "val":0.3937
+   }
+  },
+  "differentialTrackWidth":{
+   "exp":"22 in",
+   "val":0.5588
+  }
+ },
+ "generationFeatures":[]
+}
