@@ -47,7 +47,7 @@ public final class Constants {
         SIM,
         /**
          * Log replay
-         */6
+         */
         REPLAY
     }
 
